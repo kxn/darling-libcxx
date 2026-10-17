@@ -12,6 +12,7 @@ set(LIBCXX_SOURCES
   condition_variable.cpp
   condition_variable_destructor.cpp
   exception.cpp
+  expected_exception.cpp
   functional.cpp
   future.cpp
   hash.cpp
@@ -23,6 +24,7 @@ set(LIBCXX_SOURCES
   mutex.cpp
   mutex_destructor.cpp
   new.cpp
+  typed_new_delete.cpp
   optional.cpp
   random_shuffle.cpp
   shared_mutex.cpp
